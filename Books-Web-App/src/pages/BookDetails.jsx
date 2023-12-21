@@ -1,10 +1,10 @@
 import React, { useEffect } from "react";
 import { useParams } from "react-router-dom";
 import axios from "axios";
-import aws from ".../assets/aws.webp";
-import apple from ".../assets/Apple-Books-icon.png";
-import favoriteicon from ".../assets/favorite.png";
-import readicon from ".../assets/book.svg";
+import aws from "./assets/aws.webp";
+import apple from "./assets/Apple-Books-icon.png";
+import favoriteicon from "./assets/favorite.png";
+import readicon from "./assets/book.svg";
 function BookDetails() {
     const { id } = useParams();
     const [book, setBook] = React.useState({
